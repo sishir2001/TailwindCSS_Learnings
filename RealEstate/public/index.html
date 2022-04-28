@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Prime Properties</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body class="bg-gray-100">
+        <!-- * Navigation bar -->
+        <nav class="bg-gray-50 shadow-lg w-screen">
+            <div
+                class="p-4 lg:grid lg:grid-cols-2 lg:px-4 lg:pt-4 lg:p-0 w-full"
+            >
+                <!-- Hamburger Icon -->
+                <div class="lg:hidden w-10 h-10">
+                    <a href="#">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-10 w-10"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth="{2}"
+                        >
+                            <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M4 6h16M4 12h16M4 18h16"
+                            />
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- logo to the left -->
+                <div
+                    class="hidden lg:flex lg:justify-self-start lg:items-center lg:pb-1"
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-8 w-8"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="2"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                        />
+                    </svg>
+                    <div class="text-gray-500 font-semibold text-2xl p-1">
+                        Prime Properties
+                    </div>
+                </div>
+
+                <!-- option contents to the right -->
+                <div class="lg:flex lg:flex-wrap gap-x-11 lg:justify-end">
+                    <div
+                        class="navItems border-gray-50 hover:border-green-500 border-b-4"
+                    >
+                        <a href="#">Home</a>
+                    </div>
+                    <div
+                        class="navItems border-gray-50 hover:border-green-500 border-b-4"
+                    >
+                        <a href="#">Services</a>
+                    </div>
+
+                    <div
+                        class="navItems border-gray-50 hover:border-green-500 border-b-4"
+                    >
+                        <a href="#">About</a>
+                    </div>
+                    <div
+                        class="navItems border-gray-50 hover:border-green-500 border-b-4"
+                    >
+                        <a href="#">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Site banner Start-->
+        <main class="p-4 pt-10 lg:pt-40 w-screen h-full">
+            <div class="text-center">
+                <!-- Main Heading 1 -->
+                <h1
+                    class="text-black leading-light text-4xl sm:text-6xl lg:text-7xl font-black"
+                >
+                    Premium Properties
+                </h1>
+
+                <!-- Main Heading 1 -->
+                <h1
+                    class="text-black text-green-500 text-4xl sm:text-6xl lg:text-7xl font-black"
+                >
+                    Non-Premium Prices
+                </h1>
+                <!-- Content -->
+                <p
+                    class="text-lg m-x-auto pt-5 px-10 text-gray-600 text-sm md:px-20 md:text-base lg:px-40 lg:text-lg xl:px-60"
+                >
+                    At Prime Properties, we ensure that our clients get the best
+                    properties at affordable prices.Luxury is our priority and
+                    budget is our constrain .Pick and choose from 1000+
+                    properites across the globe
+                </p>
+                <!-- Buttons -->
+                <div class="py-10 md:flex justify-center">
+                    <div
+                        class="bg-green-500 p-6 m-4 text-white rounded-lg hover:bg-green-400 md:w-80 md:text-xl"
+                    >
+                        <a href="#">View Properties</a>
+                    </div>
+                    <div
+                        class="bg-green-100 p-6 m-4 text-green-700 rounded-lg hover:bg-green-200 md:w-80 md:text-xl"
+                    >
+                        <a href="#">Explore Locations</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Site banner End-->
+
+        <!-- Recent properties Start -->
+        <div class="text-center m-4">
+            <h2 class="text-4xl text-gray-500">Recent Properties</h2>
+        </div>
+        <!-- Recent properties End -->
+        <!-- Cards Section Start -->
+        <div class="md:flex gap-4 sm:mx-16 p-4">
+            <!-- Card Container Start-->
+            <div class="shadow-2xl overflow-hidden my-4 rounded-xl">
+                <!-- Image  -->
+                <div class="">
+                    <img
+                        src="./images/home1.jpg"
+                        alt="luxury"
+                        class="w-screen"
+                    />
+                </div>
+                <!-- Content -->
+                <div class="p-4">
+                    <h2 class="text-2xl font-bold">Orchid Villa</h2>
+                    <p
+                        class="pt-2 break-words text-lg text-gray-600 font-medium tracking-tighter"
+                    >
+                        Located in the suburbs of california,orchid villa offers
+                        luxury with modern touch.Equipped with green lighting
+                        and rainewater harvesting system, this property is
+                        eco-friendly
+                    </p>
+
+                    <div class="p-4 text-lg font-semibold text-green-400">
+                        $ 450,0000
+                    </div>
+                    <div class="flex gap-4 flex-wrap">
+                        <!-- crumbs -->
+                        <div
+                            class="bg-gray-300 py-2 px-6 rounded-full font-medium"
+                        >
+                            7 beds
+                        </div>
+                        <div
+                            class="bg-gray-300 py-2 px-6 rounded-full font-medium"
+                        >
+                            9 baths
+                        </div>
+                    </div>
+                    <!-- button -->
+                    <div
+                        class="bg-green-500 py-3 my-4 mt-4 text-white rounded-full text-center hover:bg-green-600"
+                    >
+                        <a href="#">View Property</a>
+                    </div>
+                </div>
+            </div>
+            <!-- End of one card -->
+            <!-- Card Container Start-->
+            <div class="shadow-2xl overflow-hidden my-4 rounded-xl">
+                <!-- Image  -->
+                <div class="rounded-xl">
+                    <img
+                        src="./images/home2.jpg"
+                        alt="luxury"
+                        class="w-screen"
+                    />
+                </div>
+                <!-- Content -->
+                <div class="p-4">
+                    <h2 class="text-2xl font-bold">577 Gracia</h2>
+                    <p
+                        class="pt-2 break-words text-lg text-gray-600 font-medium tracking-tighter"
+                    >
+                        Located in the suburbs of california,orchid villa offers
+                        luxury with modern touch.Equipped with green lighting
+                        and rainewater harvesting system, this property is
+                        eco-friendly
+                    </p>
+
+                    <div class="p-4 text-lg font-semibold text-green-400">
+                        $ 450,0000
+                    </div>
+                    <div class="flex gap-4 flex-wrap">
+                        <!-- crumbs -->
+                        <div
+                            class="bg-gray-300 py-2 px-6 rounded-full font-medium"
+                        >
+                            7 beds
+                        </div>
+                        <div
+                            class="bg-gray-300 py-2 px-6 rounded-full font-medium"
+                        >
+                            9 baths
+                        </div>
+                    </div>
+
+                    <div
+                        class="bg-green-500 py-3 my-4 mt-4 text-white rounded-full text-center hover:bg-green-600"
+                    >
+                        <a href="#">View Property</a>
+                    </div>
+                </div>
+            </div>
+            <!-- End of one card -->
+
+            <!-- Card Container Start-->
+            <div class="shadow-2xl overflow-hidden my-4 rounded-xl">
+                <!-- Image  -->
+                <div class="">
+                    <img
+                        src="./images/home3.jpg"
+                        alt="luxury"
+                        class="w-screen"
+                    />
+                </div>
+                <!-- Content -->
+                <div class="p-4">
+                    <h2 class="text-2xl font-bold">Orchid Villa</h2>
+                    <p
+                        class="pt-2 break-words text-lg text-gray-600 font-medium tracking-tighter"
+                    >
+                        Located in the suburbs of california,orchid villa offers
+                        luxury with modern touch.Equipped with green lighting
+                        and rainewater harvesting system, this property is
+                        eco-friendly
+                    </p>
+
+                    <div class="p-4 text-lg font-semibold text-green-400">
+                        $ 450,0000
+                    </div>
+                    <div class="flex gap-4 flex-wrap">
+                        <!-- crumbs -->
+                        <div
+                            class="bg-gray-300 py-2 px-6 rounded-full font-medium"
+                        >
+                            7 beds
+                        </div>
+                        <div
+                            class="bg-gray-300 py-2 px-6 rounded-full font-medium"
+                        >
+                            9 baths
+                        </div>
+                    </div>
+
+                    <div
+                        class="bg-green-500 py-3 my-4 mt-4 text-white rounded-full text-center hover:bg-green-600"
+                    >
+                        <a href="#">View Property</a>
+                    </div>
+                </div>
+            </div>
+            <!-- End of one card -->
+        </div>
+        <!-- Card Container End-->
+
+        <!-- Site Banner START -->
+        <div
+            class="h-screen py-20"
+            style="
+                background-image: linear-gradient(
+                        rgba(0, 0, 0, 0.5),
+                        rgba(0, 0, 0, 0.5)
+                    ),
+                    url('images/luxury.jpg');
+            "
+        >
+            <div class="container mx-auto mt-40">
+                <h2
+                    class="text-white font-bold tracking-tighter text-4xl px-4 sm:text-6xl"
+                >
+                    Experience Luxury Like Never Before
+                </h2>
+                <h5
+                    class="mt-6 text-gray-300 font-normal tracking-tighter text-2xl px-4 sm:text-3xl"
+                >
+                    50+ exotic locations across the globe
+                </h5>
+                <div
+                    class="bg-transparent border-4 border-white text-center p-4 mx-4 w-80 uppercase text-xl text-white font-medium mt-10 sm:mt-16"
+                >
+                    <a href="#" rel="Explore Locations">Explore Locations</a>
+                </div>
+            </div>
+        </div>
+        <!-- Site Banner END -->
+
+        <!-- Locations START -->
+        <div class="text-center m-4 p-4">
+            <h2 class="text-4xl text-gray-500">Properties</h2>
+        </div>
+        <div
+            class="container mx-auto my-4 md:grid md:grid-cols-3 gap-4 px-4 md:px-0 py-4"
+        >
+            <!-- Card Container Start-->
+            <div class="shadow-2xl overflow-hidden my-4 rounded-xl">
+                <!-- Image  -->
+                <div class="">
+                    <img
+                        src="./images/ny.jpg"
+                        alt="luxury"
+                        class="w-screen h-1/3"
+                    />
+                </div>
+                <!-- Content -->
+                <div class="p-4">
+                    <p
+                        class="pt-2 break-words text-lg text-gray-600 font-medium tracking-tighter"
+                    >
+                        Located in the suburbs of california,orchid villa offers
+                        luxury with modern touch.Equipped with green lighting
+                        and rainewater harvesting system, this property is
+                        eco-friendly
+                    </p>
+                </div>
+            </div>
+            <div class="shadow-2xl overflow-hidden my-4 rounded-xl">
+                <!-- Image  -->
+                <div class="">
+                    <img
+                        src="./images/california.jpg"
+                        alt="luxury"
+                        class="w-screen"
+                    />
+                </div>
+                <!-- Content -->
+                <div class="p-4">
+                    <p
+                        class="pt-2 break-words text-lg text-gray-600 font-medium tracking-tighter"
+                    >
+                        Located in the suburbs of california,orchid villa offers
+                    </p>
+                </div>
+            </div>
+
+            <div class="shadow-2xl overflow-hidden my-4 rounded-xl">
+                <!-- Image  -->
+                <div class="">
+                    <img
+                        src="./images/chicago.jpg"
+                        alt="luxury"
+                        class="w-screen"
+                    />
+                </div>
+                <!-- Content -->
+                <div class="p-4">
+                    <p
+                        class="pt-2 break-words text-lg text-gray-600 font-medium tracking-tighter"
+                    >
+                        Located in the suburbs of california,orchid villa offers
+                        luxury with modern touch.Equipped with green lighting
+                        and rainewater harvesting system, this property is
+                        eco-friendly
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Locations END -->
+
+        <!-- Discount Banner START -->
+        <div
+            class="h-screen py-20 bg-gradient-to-r from-green-600 to-green-100 ..."
+        >
+            <div class="container mx-auto my-96">
+                <h2
+                    class="text-white font-bold tracking-tighter text-4xl px-4 sm:text-6xl"
+                >
+                    Save upto 50% on broker commisions
+                </h2>
+                <h5
+                    class="mt-6 text-gray-200 font-normal tracking-tighter text-2xl px-4 sm:text-3xl"
+                >
+                    Lowest brokerage fees
+                </h5>
+                <button
+                    class="uppercase py-3 px-6 rounded-xl bg-white mx-4 mt-8 font-semibold shadow-2xl"
+                >
+                    Enquire
+                </button>
+            </div>
+        </div>
+        <!-- Discount Banner END -->
+
+        <!-- User Testimonials START -->
+        <div class="text-center m-4 p-4">
+            <h2 class="text-4xl text-gray-500 font-medium">
+                What clients say about us ?
+            </h2>
+        </div>
+        <div
+            class="container mx-auto my-4 md:grid md:grid-cols-3 gap-4 px-4 md:px-0 py-4"
+        >
+            <!-- Card Container Start-->
+            <div class="shadow-2xl overflow-hidden my-4 rounded-xl">
+                <!-- Content -->
+                <div class="p-4">
+                    <p
+                        class="pt-2 break-words text-xl text-gray-500 font-medium tracking-tighter"
+                    >
+                        <span class="text-green-500">"</span>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the survived
+                        not only five centuries, but also the leap into Aldus
+                        PageMaker including versions of Lorem Ipsum.
+                        <span class="text-green-500">"</span>
+                    </p>
+
+                    <!-- User Avatar START -->
+                    <div
+                        class="my-4 flex flex-wrap bg-green-100 px-2 pt-2 rounded-full"
+                    >
+                        <!-- Image -->
+                        <div class="">
+                            <img src="./images/avatar.png" alt="avatar" />
+                        </div>
+                        <!-- Contents -->
+                        <div class="px-3 mt-2">
+                            <h2 class="text-green-500 font-semibold text-lg">
+                                Jean Miguel
+                            </h2>
+                            <p class="text-sm font-medium">User of Taik-Kit</p>
+                        </div>
+                    </div>
+                    <!-- User Avatar END -->
+                </div>
+            </div>
+
+            <!-- Card Container Start-->
+            <div class="shadow-2xl overflow-hidden my-4 rounded-xl">
+                <!-- Content -->
+                <div class="p-4">
+                    <p
+                        class="pt-2 break-words text-xl text-gray-500 font-medium tracking-tighter"
+                    >
+                        <span class="text-green-500">"</span>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the survived
+                        not only five centuries, but also the leap into Aldus
+                        PageMaker including versions of Lorem Ipsum.
+                        <span class="text-green-500">"</span>
+                    </p>
+
+                    <!-- User Avatar START -->
+                    <div
+                        class="my-4 flex flex-wrap bg-green-100 px-2 pt-2 rounded-full"
+                    >
+                        <!-- Image -->
+                        <div class="">
+                            <img src="./images/avatar.png" alt="avatar" />
+                        </div>
+                        <!-- Contents -->
+                        <div class="px-3 mt-2">
+                            <h2 class="text-green-500 font-semibold text-lg">
+                                Jean Miguel
+                            </h2>
+                            <p class="text-sm font-medium">User of Taik-Kit</p>
+                        </div>
+                    </div>
+                    <!-- User Avatar END -->
+                </div>
+            </div>
+
+            <!-- Card Container Start-->
+            <div class="shadow-2xl overflow-hidden my-4 rounded-xl">
+                <!-- Content -->
+                <div class="p-4">
+                    <p
+                        class="pt-2 break-words text-xl text-gray-500 font-medium tracking-tighter"
+                    >
+                        <span class="text-green-500">"</span>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the survived
+                        not only five centuries, but also the leap into Aldus
+                        PageMaker including versions of Lorem Ipsum.
+                        <span class="text-green-500">"</span>
+                    </p>
+
+                    <!-- User Avatar START -->
+                    <div
+                        class="my-4 flex flex-wrap bg-green-100 px-2 pt-2 rounded-full"
+                    >
+                        <!-- Image -->
+                        <div class="">
+                            <img src="./images/avatar.png" alt="avatar" />
+                        </div>
+                        <!-- Contents -->
+                        <div class="px-3 mt-2">
+                            <h2 class="text-green-500 font-semibold text-lg">
+                                Jean Miguel
+                            </h2>
+                            <!-- <p class="text-sm font-medium">User of Taik-Kit</p> -->
+                        </div>
+                    </div>
+                    <!-- User Avatar END -->
+                </div>
+            </div>
+        </div>
+        <!-- User Testimonials END -->
+
+        <!-- Contact Us form START -->
+
+        <div class="text-center m-4 p-4">
+            <h2 class="text-4xl text-gray-500 font-medium">Contact Us</h2>
+        </div>
+
+        <div class="bg-green-300 p-10">
+            <div class="container mx-auto sm:px-4 lg:px-32 xl:px-64">
+                <form action="">
+                    <!-- Names  -->
+                    <div class="md:grid md:grid-cols-2 gap-4">
+                        <!-- FirstName -->
+                        <div>
+                            <label
+                                for="firstName"
+                                class="uppercase font-semibold text-gray-600"
+                                >First Name</label
+                            >
+                            <br />
+                            <input
+                                type="text"
+                                placeholder="John"
+                                name="firstName"
+                                id=""
+                                class="px-4 w-full h-10 my-4 border border-green-600 rounded-md"
+                            />
+                        </div>
+                        <div>
+                            <label
+                                for="lastName"
+                                class="uppercase font-semibold text-gray-600"
+                                >Last Name</label
+                            >
+                            <br />
+                            <input
+                                type="text"
+                                name="lastName"
+                                id=""
+                                placeholder="Joe"
+                                class="px-4 w-full h-10 my-4 border border-green-600 rounded-md"
+                            />
+                        </div>
+                    </div>
+                    <p class="text-sm text-green-600 py-1 italic">
+                        Please fill out this field
+                    </p>
+
+                    <!-- Email -->
+                    <div>
+                        <label
+                            for="email"
+                            class="uppercase font-semibold text-gray-600"
+                            >Email</label
+                        >
+                        <br />
+                        <!-- <input class="w-full" type="email" name="email" id="" /> -->
+                        <input
+                            type="email"
+                            name="email"
+                            id=""
+                            placeholder="johndoe@example.com"
+                            class="px-4 w-full h-10 my-4 border border-green-600 rounded-md"
+                        />
+                    </div>
+                    <p class="text-sm text-gray-500 py-4 italic">
+                        Some tips - as long as needed
+                    </p>
+
+                    <!-- Message -->
+                    <div>
+                        <label
+                            for="message"
+                            class="uppercase font-semibold text-gray-600"
+                            >Message</label
+                        >
+                        <br />
+                        <!-- <input class="w-full" type="text-area" name="message" id="" /> -->
+                        <textarea
+                            name="message"
+                            id=""
+                            cols="30"
+                            rows="10"
+                            class="px-4 py-2 resize-none w-full my-4 border border-green-600 rounded-md"
+                            placeholder="message"
+                        ></textarea>
+                    </div>
+
+                    <!-- Submit Buttonemail -->
+
+                    <button
+                        class="uppercase py-3 px-6 rounded-lg bg-green-500 mt-8 font-semibold shadow-2xl text-white"
+                    >
+                        Submit
+                    </button>
+                </form>
+            </div>
+        </div>
+        <!-- Contact Us form END -->
+
+        <!-- Footer -->
+        <div>
+            <!-- Title -->
+            <div class="text-center m-4 p-4">
+                <!-- logo to the left -->
+                <div class="flex justify-center p-4">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-8 w-8"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="2"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                        />
+                    </svg>
+                    <div class="text-gray-500 font-semibold text-2xl p-1">
+                        Prime Properties
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer content START -->
+            <div
+                class="grid grid-cols-2 md:grid-cols-4 gap-4 mx-4 md:mx-8 lg:mx-32 xl:mx-64 2xl:mx-96 mb-4 justify-items-center"
+            >
+                <!-- Footer divs -->
+                <div class="">
+                    <!-- Header -->
+                    <h2 class="uppercase tracking-tighter text-green-500 pb-4">
+                        Product
+                    </h2>
+                    <!-- List -->
+                    <h2 class="tracking-tighter">Features</h2>
+                    <h2 class="tracking-tighter">Integrations</h2>
+                    <h2 class="tracking-tighter">Pricing</h2>
+                    <h2 class="tracking-tighter">FAQ</h2>
+                </div>
+                <div class="">
+                    <!-- Header -->
+                    <h2 class="uppercase tracking-tighter text-green-500 pb-4">
+                        Company
+                    </h2>
+                    <!-- List -->
+                    <h2 class="tracking-tighter">Privacy</h2>
+                    <h2 class="tracking-tighter">Terms of Service</h2>
+                </div>
+                <div class="">
+                    <!-- Header -->
+                    <h2 class="uppercase tracking-tighter text-green-500 pb-4">
+                        Developers
+                    </h2>
+                    <!-- List -->
+                    <h2 class="tracking-tighter">Public API</h2>
+                    <h2 class="tracking-tighter">Documentation</h2>
+                    <h2 class="tracking-tighter">Guides</h2>
+                </div>
+                <div class="">
+                    <!-- Header -->
+                    <h2 class="uppercase tracking-tighter text-green-500 pb-4">
+                        Social Media
+                    </h2>
+                    <!-- List -->
+                    <div class="flex flex-wrap gap-1">
+                        <a href="https://facebook.com" target="_blank">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="127.999"
+                                height="128"
+                                viewBox="0 0 127.999 128"
+                                class="w-8 h-8"
+                            >
+                                <path
+                                    fill="#231f20"
+                                    d="M64 7.989c-30.885 0-56.01 25.126-56.01 56.01 0 30.885 25.125 56.012 56.01 56.012 30.883 0 56.01-25.127 56.01-56.012 0-30.884-25.127-56.01-56.01-56.01zm15.83 35.358a1 1 0 0 1-1 1l-6.367.004c-4.201 0-4.969 1.636-4.969 4.858v6.684h10.92c.287 0 .561.124.75.34s.277.503.242.788l-1.555 12.033a1 1 0 0 1-.992.872h-9.365v29.879a1 1 0 0 1-1 1H54.07a1 1 0 0 1-1-1V69.926h-9.395a1 1 0 0 1-1-1V56.893a1 1 0 0 1 1-1h9.395v-7.875c0-10.43 6.312-16.908 16.475-16.908 4.369 0 8.23.325 9.416.482a1 1 0 0 1 .869.991v10.764z"
+                                />
+                            </svg>
+                        </a>
+                        <a href="https://twitter.com" target="_blank">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="512"
+                                height="512"
+                                viewBox="0 0 512 512"
+                                class="w-8 h-8"
+                            >
+                                <path
+                                    d="M492 109.5c-17.4 7.7-36 12.9-55.6 15.3 20-12 35.4-31 42.6-53.6-18.7 11.1-39.4 19.2-61.5 23.5C399.8 75.8 374.6 64 346.8 64c-53.5 0-96.8 43.4-96.8 96.9 0 7.6.8 15 2.5 22.1-80.5-4-151.9-42.6-199.6-101.3-8.3 14.3-13.1 31-13.1 48.7 0 33.6 17.2 63.3 43.2 80.7-16-.4-31-4.8-44-12.1v1.2c0 47 33.4 86.1 77.7 95-8.1 2.2-16.7 3.4-25.5 3.4-6.2 0-12.3-.6-18.2-1.8 12.3 38.5 48.1 66.5 90.5 67.3-33.1 26-74.9 41.5-120.3 41.5-7.8 0-15.5-.5-23.1-1.4C62.8 432 113.7 448 168.3 448 346.6 448 444 300.3 444 172.2c0-4.2-.1-8.4-.3-12.5C462.6 146 479 129 492 109.5z"
+                                />
+                            </svg>
+                        </a>
+                        <a href="https://instagram.com" target="_blank">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                enable-background="new 0 0 32 32"
+                                viewBox="0 0 32 32"
+                                class="w-8 h-8"
+                            >
+                                <rect
+                                    width="539"
+                                    height="176"
+                                    x="-18"
+                                    y="-20"
+                                    fill="#F3EEE9"
+                                    display="none"
+                                />
+                                <path
+                                    d="M22,3H10c-3.86,0-7,3.14-7,7v12c0,3.86,3.14,7,7,7h12c3.86,0,7-3.14,7-7V10C29,6.14,25.86,3,22,3z M27,22c0,2.757-2.243,5-5,5H10c-2.757,0-5-2.243-5-5V10c0-2.757,2.243-5,5-5h12c2.757,0,5,2.243,5,5V22z M16,10c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6S19.309,10,16,10z M16,20c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S18.206,20,16,20z M24,9.5c0,0.828-0.672,1.5-1.5,1.5S21,10.328,21,9.5S21.672,8,22.5,8S24,8.672,24,9.5z"
+                                />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer content END -->
+        </div>
+        <!-- Footer -->
+
+        <!-- Copyright  -->
+        <div class="container mx-auto p-4">
+            <hr class="bg-gray-300 border-2 border-gray-300">
+            <p class="text-green-500 text-center p-8 tracking-tighter sm:text-xl text-sm">© 2001 . All company rights reserved</p>
+        </div>
+    </body>
+</html>
